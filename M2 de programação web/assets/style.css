@@ -1,0 +1,12 @@
+.menu{
+   width: 10%;
+   float: left; 
+   background-color: chartreuse;
+}
+
+.conteudo{
+    width: 90%;
+    float: right;
+    background-color: darkmagenta;
+    
+}

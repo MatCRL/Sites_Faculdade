@@ -1,0 +1,55 @@
+
+#checkboxlogin{
+    color: black;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.form-signin{
+    position: relative;
+    top:260px;
+    
+}
+
+.form-floating{
+
+    position: relative;
+
+    left:775px;
+    width:370px;
+
+}
+
+.w-100{
+
+    border-color: rgb(20, 175, 72);
+    background-color: rgb(20, 175, 72);
+    width:10% !important;
+
+}
+
+.w-100:hover{
+
+    border-color: rgb(2, 226, 76);
+    background-color: rgb(2, 226, 76);
+
+}
+
+.text-center{
+
+    font-family: 'Fira Sans', sans-serif;
+    background-color:rgb(237, 253, 235);
+
+}

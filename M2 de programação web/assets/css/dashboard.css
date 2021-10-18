@@ -1,0 +1,118 @@
+
+@media only screen and (max-device-width: 900px) {
+     .menu { width:100%; } 
+    }
+
+.container-fluid{
+
+    background-color:rgb(140, 236, 172);
+    color: black;
+}
+
+.btn-outline-primary{
+    
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+    margin-right: 60px;
+    border-width: 0px;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    border-radius: 0px;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.btn-outline-primary:hover{
+
+    border-bottom-color: black;
+    background-color: rgb(140, 236, 172); 
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(0, 0, 0);
+    
+}
+
+.navbar-brand{
+
+    padding: 10px;
+    position: relative;
+    left: 580px;
+    
+}
+
+#imgconserto{
+
+    position: absolute; 
+    top: 290px; 
+    left: 60px;
+
+    width:450px; 
+    height: 770px;
+	
+}
+
+#imgmarcaautorizada{
+
+    position: absolute; 
+    top: 290px; 
+    left: 1350px;
+
+}
+
+#fotologocompleta{
+
+    position: absolute; 
+    top: 30px; 
+    left: 700px;
+
+}
+
+#textoprincipal{
+    position: absolute;
+    top: 290px; 
+    left: 630px;
+
+    height: 100px;
+    width: 600px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#paragrafoprincipal{
+    position: absolute;
+    top: 190px; 
+    left: 630px;
+
+    height: 400px;
+    width: 600px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#testelonge{
+    position: absolute;
+    top: 1850px; 
+    left: 400px;
+}
+
+#textoquemsomos{
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+
+}
+
+#catalogo{
+
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+    
+}
+
+#contato{
+
+    position: absolute;
+    top: 3000px;
+    left: 200px;
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLE Refrigeração</title>
+    <link href="assets/libs/bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+    
+    <body style="background-color: rgb(237, 253, 235);">
+    
+        <div class="container">
+          <main>
+            <div class="py-5 text-center">
+              
+              <h2>Cadastro Orçamento</h2>
+              <p class="lead">Preencha as informaçoes necessárias</p>
+            </div>
+        
+            <div class="row g-5">
+              
+              <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Dados</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">Nome do Cliente</label>
+                      <input type="text" class="form-control" id="Nome" placeholder="Nome do Cliente" value="" required>
+                      <div class="invalid-feedback">
+                        Nome é obrigatório.
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <label for="equipamento" class="form-label">Equipamento</label>
+                      <input type="text" class="form-control" id="equipamento" placeholder="Tipo do Equipamento"  required>
+                      <div class="invalid-feedback">
+                        Nome do equipamento é obrigatório.
+                      </div>
+                    </div>
+        
+        
+                    <div class="col-12">
+                      <label for="problema" class="form-label">Explicação do problema <span class="text-muted">(Optional)</span></label>
+                      <input type="text" class="form-control" id="roblema" placeholder="Breve Explicação">
+                      <div class="invalid-feedback">
+                        Favor inserir o problema.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="data" class="form-label">Dia do orçamento</label>
+                      <input type="datetime-local" class="form-control" id="data"  required>
+                      <div class="invalid-feedback">
+                        Favor inserir a data.
+                      </div>
+                    </div>
+        
+                    
+        
+                  <hr class="my-4">
+        
+                  <button  class="w-100 btn btn-primary btn-lg" href="file:///C:/Users/MATHEUS/Desktop/M2%20de%20programa%C3%A7%C3%A3o%20web/comando_empresa.html" >Continue para registrar</button>
+                  
+                </form>
+              </div>
+            </div>
+          </main>
+        
+          <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2017–2021 SLE Refrigeração</p>
+            
+          </footer>
+        </div>
+        
+        
+            <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        
+              <script src="form-validation.js"></script>
+          </body>
+
+
+</html>

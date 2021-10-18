@@ -1,0 +1,30 @@
+
+#tabela{
+
+  margin-top: 5%;
+  margin-left: 15%;
+  position: relative;
+}
+
+#tabelafeita{
+
+  width: 80%;
+  height: 80%;
+  position: relative;
+
+}
+
+.d-flex{
+
+  margin-top: -50px;
+  position:  absolute ;
+
+}
+
+.dropdown{
+
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+
+}
